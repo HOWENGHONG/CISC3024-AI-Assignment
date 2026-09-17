@@ -1,0 +1,65 @@
+device=cpu (AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD, threads=6)
+model=resnet20x2 params=1.08M amp(bf16)=True epochs=15 steps/epoch=390 augment=light
+  [resnet20x2] ep 1 it  100/390 loss 1.9736 acc  29.5% 258 ms/it
+  [resnet20x2] ep 1 it  200/390 loss 1.8156 acc  37.7% 225 ms/it
+  [resnet20x2] ep 1 it  300/390 loss 1.7038 acc  43.6% 213 ms/it
+[resnet20x2] epoch   1/15 lr 2.00e-03 train loss 1.6359 acc  47.12% | test loss 1.5399 acc  55.56% (best  55.56%) |  92.3s
+  [resnet20x2] ep 2 it  100/390 loss 1.3437 acc  62.0% 190 ms/it
+  [resnet20x2] ep 2 it  200/390 loss 1.3045 acc  64.0% 189 ms/it
+  [resnet20x2] ep 2 it  300/390 loss 1.2731 acc  65.5% 189 ms/it
+[resnet20x2] epoch   2/15 lr 1.98e-03 train loss 1.2525 acc  66.50% | test loss 1.2371 acc  68.66% (best  68.66%) |  78.1s
+  [resnet20x2] ep 3 it  100/390 loss 1.1193 acc  73.5% 189 ms/it
+  [resnet20x2] ep 3 it  200/390 loss 1.1063 acc  73.9% 188 ms/it
+  [resnet20x2] ep 3 it  300/390 loss 1.0950 acc  74.3% 189 ms/it
+[resnet20x2] epoch   3/15 lr 1.90e-03 train loss 1.0815 acc  74.96% | test loss 1.0928 acc  75.28% (best  75.28%) |  78.0s
+  [resnet20x2] ep 4 it  100/390 loss 1.0126 acc  77.9% 197 ms/it
+  [resnet20x2] ep 4 it  200/390 loss 1.0074 acc  78.3% 195 ms/it
+  [resnet20x2] ep 4 it  300/390 loss 0.9999 acc  78.7% 193 ms/it
+[resnet20x2] epoch   4/15 lr 1.78e-03 train loss 0.9916 acc  79.07% | test loss 1.0587 acc  75.46% (best  75.46%) |  79.4s
+  [resnet20x2] ep 5 it  100/390 loss 0.9342 acc  81.4% 190 ms/it
+  [resnet20x2] ep 5 it  200/390 loss 0.9368 acc  81.3% 189 ms/it
+  [resnet20x2] ep 5 it  300/390 loss 0.9349 acc  81.5% 190 ms/it
+[resnet20x2] epoch   5/15 lr 1.63e-03 train loss 0.9336 acc  81.55% | test loss 0.9370 acc  81.77% (best  81.77%) |  78.5s
+  [resnet20x2] ep 6 it  100/390 loss 0.8926 acc  83.4% 193 ms/it
+  [resnet20x2] ep 6 it  200/390 loss 0.8921 acc  83.3% 192 ms/it
+  [resnet20x2] ep 6 it  300/390 loss 0.8871 acc  83.5% 192 ms/it
+[resnet20x2] epoch   6/15 lr 1.44e-03 train loss 0.8840 acc  83.68% | test loss 0.8798 acc  83.85% (best  83.85%) |  79.2s
+  [resnet20x2] ep 7 it  100/390 loss 0.8546 acc  85.1% 192 ms/it
+  [resnet20x2] ep 7 it  200/390 loss 0.8470 acc  85.4% 191 ms/it
+  [resnet20x2] ep 7 it  300/390 loss 0.8438 acc  85.5% 191 ms/it
+[resnet20x2] epoch   7/15 lr 1.23e-03 train loss 0.8444 acc  85.53% | test loss 0.8650 acc  84.35% (best  84.35%) |  78.6s
+  [resnet20x2] ep 8 it  100/390 loss 0.8110 acc  87.1% 190 ms/it
+  [resnet20x2] ep 8 it  200/390 loss 0.8123 acc  86.9% 190 ms/it
+  [resnet20x2] ep 8 it  300/390 loss 0.8096 acc  87.0% 203 ms/it
+[resnet20x2] epoch   8/15 lr 1.01e-03 train loss 0.8069 acc  87.13% | test loss 0.8525 acc  85.11% (best  85.11%) |  84.5s
+  [resnet20x2] ep 9 it  100/390 loss 0.7748 acc  88.7% 192 ms/it
+  [resnet20x2] ep 9 it  200/390 loss 0.7746 acc  88.6% 191 ms/it
+  [resnet20x2] ep 9 it  300/390 loss 0.7722 acc  88.6% 191 ms/it
+[resnet20x2] epoch   9/15 lr 7.84e-04 train loss 0.7724 acc  88.56% | test loss 0.8053 acc  87.29% (best  87.29%) |  78.6s
+  [resnet20x2] ep 10 it  100/390 loss 0.7435 acc  90.0% 194 ms/it
+  [resnet20x2] ep 10 it  200/390 loss 0.7444 acc  90.0% 193 ms/it
+  [resnet20x2] ep 10 it  300/390 loss 0.7428 acc  90.0% 192 ms/it
+[resnet20x2] epoch  10/15 lr 5.74e-04 train loss 0.7409 acc  90.04% | test loss 0.8052 acc  87.05% (best  87.29%) |  79.1s
+  [resnet20x2] ep 11 it  100/390 loss 0.7177 acc  91.1% 193 ms/it
+  [resnet20x2] ep 11 it  200/390 loss 0.7112 acc  91.3% 191 ms/it
+  [resnet20x2] ep 11 it  300/390 loss 0.7097 acc  91.4% 191 ms/it
+[resnet20x2] epoch  11/15 lr 3.85e-04 train loss 0.7085 acc  91.41% | test loss 0.7658 acc  88.69% (best  88.69%) |  78.5s
+  [resnet20x2] ep 12 it  100/390 loss 0.6836 acc  92.6% 195 ms/it
+  [resnet20x2] ep 12 it  200/390 loss 0.6801 acc  92.7% 193 ms/it
+  [resnet20x2] ep 12 it  300/390 loss 0.6791 acc  92.7% 194 ms/it
+[resnet20x2] epoch  12/15 lr 2.27e-04 train loss 0.6783 acc  92.80% | test loss 0.7431 acc  89.56% (best  89.56%) |  79.5s
+  [resnet20x2] ep 13 it  100/390 loss 0.6589 acc  93.8% 195 ms/it
+  [resnet20x2] ep 13 it  200/390 loss 0.6577 acc  93.7% 193 ms/it
+  [resnet20x2] ep 13 it  300/390 loss 0.6567 acc  93.8% 191 ms/it
+[resnet20x2] epoch  13/15 lr 1.09e-04 train loss 0.6562 acc  93.75% | test loss 0.7212 acc  90.61% (best  90.61%) |  78.8s
+  [resnet20x2] ep 14 it  100/390 loss 0.6425 acc  94.4% 191 ms/it
+  [resnet20x2] ep 14 it  200/390 loss 0.6450 acc  94.4% 189 ms/it
+  [resnet20x2] ep 14 it  300/390 loss 0.6436 acc  94.4% 190 ms/it
+[resnet20x2] epoch  14/15 lr 3.51e-05 train loss 0.6419 acc  94.47% | test loss 0.7199 acc  90.56% (best  90.61%) |  78.5s
+  [resnet20x2] ep 15 it  100/390 loss 0.6357 acc  94.9% 190 ms/it
+  [resnet20x2] ep 15 it  200/390 loss 0.6332 acc  94.9% 190 ms/it
+  [resnet20x2] ep 15 it  300/390 loss 0.6341 acc  94.8% 190 ms/it
+[resnet20x2] epoch  15/15 lr 1.00e-05 train loss 0.6339 acc  94.88% | test loss 0.7177 acc  90.67% (best  90.67%) |  78.3s
+
+[resnet20x2] best test acc 90.67% (epoch 15), final 90.67%, params 1.08M, train time 20.0 min, throughput 2374 img/s
+results written to results\resnet20x2.json

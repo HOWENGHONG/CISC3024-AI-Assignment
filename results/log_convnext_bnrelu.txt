@@ -1,0 +1,65 @@
+device=cpu (AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD, threads=6)
+model=convnext_bnrelu params=1.18M amp(bf16)=True epochs=15 steps/epoch=390 augment=light
+  [convnext_bnrelu] ep 1 it  100/390 loss 2.1127 acc  23.9% 279 ms/it
+  [convnext_bnrelu] ep 1 it  200/390 loss 2.0183 acc  28.5% 243 ms/it
+  [convnext_bnrelu] ep 1 it  300/390 loss 1.9520 acc  31.8% 232 ms/it
+[convnext_bnrelu] epoch   1/15 lr 2.00e-03 train loss 1.9074 acc  34.23% | test loss 1.7275 acc  44.70% (best  44.70%) |  98.8s
+  [convnext_bnrelu] ep 2 it  100/390 loss 1.6879 acc  45.9% 209 ms/it
+  [convnext_bnrelu] ep 2 it  200/390 loss 1.6650 acc  47.2% 211 ms/it
+  [convnext_bnrelu] ep 2 it  300/390 loss 1.6390 acc  48.4% 210 ms/it
+[convnext_bnrelu] epoch   2/15 lr 1.98e-03 train loss 1.6176 acc  49.40% | test loss 1.4628 acc  58.06% (best  58.06%) |  85.3s
+  [convnext_bnrelu] ep 3 it  100/390 loss 1.4957 acc  55.4% 213 ms/it
+  [convnext_bnrelu] ep 3 it  200/390 loss 1.4780 acc  56.4% 210 ms/it
+  [convnext_bnrelu] ep 3 it  300/390 loss 1.4650 acc  56.9% 210 ms/it
+[convnext_bnrelu] epoch   3/15 lr 1.90e-03 train loss 1.4524 acc  57.52% | test loss 1.3565 acc  62.42% (best  62.42%) |  85.3s
+  [convnext_bnrelu] ep 4 it  100/390 loss 1.3785 acc  60.4% 211 ms/it
+  [convnext_bnrelu] ep 4 it  200/390 loss 1.3622 acc  61.7% 210 ms/it
+  [convnext_bnrelu] ep 4 it  300/390 loss 1.3443 acc  62.4% 210 ms/it
+[convnext_bnrelu] epoch   4/15 lr 1.78e-03 train loss 1.3321 acc  63.11% | test loss 1.2183 acc  68.72% (best  68.72%) |  85.2s
+  [convnext_bnrelu] ep 5 it  100/390 loss 1.2735 acc  66.1% 209 ms/it
+  [convnext_bnrelu] ep 5 it  200/390 loss 1.2593 acc  66.8% 209 ms/it
+  [convnext_bnrelu] ep 5 it  300/390 loss 1.2482 acc  67.5% 209 ms/it
+[convnext_bnrelu] epoch   5/15 lr 1.63e-03 train loss 1.2465 acc  67.57% | test loss 1.1621 acc  71.91% (best  71.91%) |  85.0s
+  [convnext_bnrelu] ep 6 it  100/390 loss 1.1955 acc  69.5% 210 ms/it
+  [convnext_bnrelu] ep 6 it  200/390 loss 1.1889 acc  70.0% 210 ms/it
+  [convnext_bnrelu] ep 6 it  300/390 loss 1.1870 acc  70.3% 212 ms/it
+[convnext_bnrelu] epoch   6/15 lr 1.44e-03 train loss 1.1846 acc  70.38% | test loss 1.1137 acc  73.52% (best  73.52%) |  85.7s
+  [convnext_bnrelu] ep 7 it  100/390 loss 1.1486 acc  72.1% 209 ms/it
+  [convnext_bnrelu] ep 7 it  200/390 loss 1.1395 acc  72.5% 211 ms/it
+  [convnext_bnrelu] ep 7 it  300/390 loss 1.1272 acc  73.1% 210 ms/it
+[convnext_bnrelu] epoch   7/15 lr 1.23e-03 train loss 1.1248 acc  73.20% | test loss 1.0767 acc  75.19% (best  75.19%) |  85.4s
+  [convnext_bnrelu] ep 8 it  100/390 loss 1.0690 acc  75.9% 208 ms/it
+  [convnext_bnrelu] ep 8 it  200/390 loss 1.0732 acc  75.6% 209 ms/it
+  [convnext_bnrelu] ep 8 it  300/390 loss 1.0728 acc  75.7% 209 ms/it
+[convnext_bnrelu] epoch   8/15 lr 1.01e-03 train loss 1.0713 acc  75.79% | test loss 1.0126 acc  78.24% (best  78.24%) |  84.7s
+  [convnext_bnrelu] ep 9 it  100/390 loss 1.0304 acc  77.5% 209 ms/it
+  [convnext_bnrelu] ep 9 it  200/390 loss 1.0282 acc  77.6% 209 ms/it
+  [convnext_bnrelu] ep 9 it  300/390 loss 1.0285 acc  77.6% 209 ms/it
+[convnext_bnrelu] epoch   9/15 lr 7.84e-04 train loss 1.0256 acc  77.76% | test loss 0.9736 acc  79.83% (best  79.83%) |  84.8s
+  [convnext_bnrelu] ep 10 it  100/390 loss 0.9724 acc  80.3% 214 ms/it
+  [convnext_bnrelu] ep 10 it  200/390 loss 0.9833 acc  79.7% 211 ms/it
+  [convnext_bnrelu] ep 10 it  300/390 loss 0.9831 acc  79.8% 210 ms/it
+[convnext_bnrelu] epoch  10/15 lr 5.74e-04 train loss 0.9842 acc  79.70% | test loss 0.9508 acc  81.16% (best  81.16%) |  85.4s
+  [convnext_bnrelu] ep 11 it  100/390 loss 0.9581 acc  80.9% 209 ms/it
+  [convnext_bnrelu] ep 11 it  200/390 loss 0.9505 acc  81.2% 209 ms/it
+  [convnext_bnrelu] ep 11 it  300/390 loss 0.9491 acc  81.2% 209 ms/it
+[convnext_bnrelu] epoch  11/15 lr 3.85e-04 train loss 0.9467 acc  81.28% | test loss 0.9313 acc  82.00% (best  82.00%) |  84.9s
+  [convnext_bnrelu] ep 12 it  100/390 loss 0.9166 acc  83.0% 207 ms/it
+  [convnext_bnrelu] ep 12 it  200/390 loss 0.9167 acc  83.0% 207 ms/it
+  [convnext_bnrelu] ep 12 it  300/390 loss 0.9178 acc  82.9% 207 ms/it
+[convnext_bnrelu] epoch  12/15 lr 2.27e-04 train loss 0.9140 acc  83.12% | test loss 0.9128 acc  82.67% (best  82.67%) |  84.5s
+  [convnext_bnrelu] ep 13 it  100/390 loss 0.8847 acc  84.4% 207 ms/it
+  [convnext_bnrelu] ep 13 it  200/390 loss 0.8911 acc  84.2% 207 ms/it
+  [convnext_bnrelu] ep 13 it  300/390 loss 0.8934 acc  84.0% 208 ms/it
+[convnext_bnrelu] epoch  13/15 lr 1.09e-04 train loss 0.8907 acc  84.10% | test loss 0.8996 acc  83.24% (best  83.24%) |  84.8s
+  [convnext_bnrelu] ep 14 it  100/390 loss 0.8793 acc  84.8% 209 ms/it
+  [convnext_bnrelu] ep 14 it  200/390 loss 0.8762 acc  84.9% 210 ms/it
+  [convnext_bnrelu] ep 14 it  300/390 loss 0.8772 acc  84.8% 210 ms/it
+[convnext_bnrelu] epoch  14/15 lr 3.51e-05 train loss 0.8774 acc  84.78% | test loss 0.8962 acc  83.28% (best  83.28%) |  85.4s
+  [convnext_bnrelu] ep 15 it  100/390 loss 0.8708 acc  85.2% 209 ms/it
+  [convnext_bnrelu] ep 15 it  200/390 loss 0.8696 acc  85.3% 211 ms/it
+  [convnext_bnrelu] ep 15 it  300/390 loss 0.8661 acc  85.3% 211 ms/it
+[convnext_bnrelu] epoch  15/15 lr 1.00e-05 train loss 0.8695 acc  85.11% | test loss 0.8960 acc  83.42% (best  83.42%) |  85.4s
+
+[convnext_bnrelu] best test acc 83.42% (epoch 15), final 83.42%, params 1.18M, train time 21.5 min, throughput 3017 img/s
+results written to results\convnext_bnrelu.json

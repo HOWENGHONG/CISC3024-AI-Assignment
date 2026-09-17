@@ -1,0 +1,65 @@
+device=cpu (AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD, threads=6)
+model=convnext_k3 params=1.15M amp(bf16)=True epochs=15 steps/epoch=390 augment=light
+  [convnext_k3] ep 1 it  100/390 loss 2.1326 acc  22.4% 302 ms/it
+  [convnext_k3] ep 1 it  200/390 loss 2.0709 acc  25.6% 265 ms/it
+  [convnext_k3] ep 1 it  300/390 loss 2.0111 acc  28.9% 253 ms/it
+[convnext_k3] epoch   1/15 lr 2.00e-03 train loss 1.9800 acc  30.53% | test loss 1.7827 acc  39.90% (best  39.90%) | 109.6s
+  [convnext_k3] ep 2 it  100/390 loss 1.8230 acc  38.4% 216 ms/it
+  [convnext_k3] ep 2 it  200/390 loss 1.8036 acc  39.0% 220 ms/it
+  [convnext_k3] ep 2 it  300/390 loss 1.7835 acc  39.8% 218 ms/it
+[convnext_k3] epoch   2/15 lr 1.98e-03 train loss 1.7576 acc  40.97% | test loss 1.6277 acc  47.09% (best  47.09%) |  89.4s
+  [convnext_k3] ep 3 it  100/390 loss 1.6469 acc  46.5% 215 ms/it
+  [convnext_k3] ep 3 it  200/390 loss 1.6286 acc  47.7% 222 ms/it
+  [convnext_k3] ep 3 it  300/390 loss 1.6155 acc  48.1% 229 ms/it
+[convnext_k3] epoch   3/15 lr 1.90e-03 train loss 1.6005 acc  48.87% | test loss 1.4346 acc  57.56% (best  57.56%) |  97.3s
+  [convnext_k3] ep 4 it  100/390 loss 1.5177 acc  53.5% 246 ms/it
+  [convnext_k3] ep 4 it  200/390 loss 1.5037 acc  54.1% 249 ms/it
+  [convnext_k3] ep 4 it  300/390 loss 1.4815 acc  55.2% 238 ms/it
+[convnext_k3] epoch   4/15 lr 1.78e-03 train loss 1.4669 acc  55.85% | test loss 1.3346 acc  62.31% (best  62.31%) |  96.0s
+  [convnext_k3] ep 5 it  100/390 loss 1.3923 acc  59.9% 219 ms/it
+  [convnext_k3] ep 5 it  200/390 loss 1.3881 acc  59.9% 236 ms/it
+  [convnext_k3] ep 5 it  300/390 loss 1.3753 acc  60.6% 237 ms/it
+[convnext_k3] epoch   5/15 lr 1.63e-03 train loss 1.3643 acc  61.18% | test loss 1.3011 acc  64.25% (best  64.25%) |  99.3s
+  [convnext_k3] ep 6 it  100/390 loss 1.3222 acc  62.9% 249 ms/it
+  [convnext_k3] ep 6 it  200/390 loss 1.3106 acc  63.6% 244 ms/it
+  [convnext_k3] ep 6 it  300/390 loss 1.3011 acc  64.2% 245 ms/it
+[convnext_k3] epoch   6/15 lr 1.44e-03 train loss 1.2906 acc  64.68% | test loss 1.1838 acc  69.61% (best  69.61%) |  98.2s
+  [convnext_k3] ep 7 it  100/390 loss 1.2301 acc  67.9% 229 ms/it
+  [convnext_k3] ep 7 it  200/390 loss 1.2312 acc  67.6% 235 ms/it
+  [convnext_k3] ep 7 it  300/390 loss 1.2322 acc  67.5% 238 ms/it
+[convnext_k3] epoch   7/15 lr 1.23e-03 train loss 1.2258 acc  67.73% | test loss 1.1214 acc  72.42% (best  72.42%) |  99.2s
+  [convnext_k3] ep 8 it  100/390 loss 1.1911 acc  69.2% 219 ms/it
+  [convnext_k3] ep 8 it  200/390 loss 1.1803 acc  69.8% 218 ms/it
+  [convnext_k3] ep 8 it  300/390 loss 1.1761 acc  70.1% 217 ms/it
+[convnext_k3] epoch   8/15 lr 1.01e-03 train loss 1.1743 acc  70.28% | test loss 1.0990 acc  73.78% (best  73.78%) |  89.4s
+  [convnext_k3] ep 9 it  100/390 loss 1.1397 acc  71.8% 216 ms/it
+  [convnext_k3] ep 9 it  200/390 loss 1.1403 acc  71.7% 229 ms/it
+  [convnext_k3] ep 9 it  300/390 loss 1.1338 acc  72.1% 235 ms/it
+[convnext_k3] epoch   9/15 lr 7.84e-04 train loss 1.1280 acc  72.29% | test loss 1.0539 acc  75.40% (best  75.40%) |  96.9s
+  [convnext_k3] ep 10 it  100/390 loss 1.0948 acc  73.7% 228 ms/it
+  [convnext_k3] ep 10 it  200/390 loss 1.0891 acc  74.0% 233 ms/it
+  [convnext_k3] ep 10 it  300/390 loss 1.0859 acc  74.2% 235 ms/it
+[convnext_k3] epoch  10/15 lr 5.74e-04 train loss 1.0866 acc  74.19% | test loss 1.0222 acc  77.27% (best  77.27%) |  97.4s
+  [convnext_k3] ep 11 it  100/390 loss 1.0527 acc  75.7% 234 ms/it
+  [convnext_k3] ep 11 it  200/390 loss 1.0509 acc  75.8% 236 ms/it
+  [convnext_k3] ep 11 it  300/390 loss 1.0480 acc  75.8% 237 ms/it
+[convnext_k3] epoch  11/15 lr 3.85e-04 train loss 1.0469 acc  75.96% | test loss 1.0071 acc  77.62% (best  77.62%) |  98.2s
+  [convnext_k3] ep 12 it  100/390 loss 1.0188 acc  77.2% 238 ms/it
+  [convnext_k3] ep 12 it  200/390 loss 1.0171 acc  77.2% 239 ms/it
+  [convnext_k3] ep 12 it  300/390 loss 1.0197 acc  77.1% 245 ms/it
+[convnext_k3] epoch  12/15 lr 2.27e-04 train loss 1.0156 acc  77.36% | test loss 0.9771 acc  79.07% (best  79.07%) |  99.1s
+  [convnext_k3] ep 13 it  100/390 loss 0.9952 acc  78.2% 268 ms/it
+  [convnext_k3] ep 13 it  200/390 loss 0.9905 acc  78.5% 283 ms/it
+  [convnext_k3] ep 13 it  300/390 loss 0.9894 acc  78.5% 270 ms/it
+[convnext_k3] epoch  13/15 lr 1.09e-04 train loss 0.9891 acc  78.58% | test loss 0.9639 acc  79.92% (best  79.92%) | 107.1s
+  [convnext_k3] ep 14 it  100/390 loss 0.9730 acc  79.7% 229 ms/it
+  [convnext_k3] ep 14 it  200/390 loss 0.9716 acc  79.8% 232 ms/it
+  [convnext_k3] ep 14 it  300/390 loss 0.9715 acc  79.7% 231 ms/it
+[convnext_k3] epoch  14/15 lr 3.51e-05 train loss 0.9703 acc  79.70% | test loss 0.9552 acc  80.16% (best  80.16%) |  95.0s
+  [convnext_k3] ep 15 it  100/390 loss 0.9675 acc  79.6% 227 ms/it
+  [convnext_k3] ep 15 it  200/390 loss 0.9648 acc  79.8% 226 ms/it
+  [convnext_k3] ep 15 it  300/390 loss 0.9640 acc  80.0% 226 ms/it
+[convnext_k3] epoch  15/15 lr 1.00e-05 train loss 0.9643 acc  80.04% | test loss 0.9530 acc  80.13% (best  80.16%) |  93.5s
+
+[convnext_k3] best test acc 80.16% (epoch 14), final 80.13%, params 1.15M, train time 24.4 min, throughput 1911 img/s
+results written to results\convnext_k3.json

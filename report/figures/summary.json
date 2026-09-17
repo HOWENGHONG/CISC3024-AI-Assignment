@@ -1,0 +1,57 @@
+[
+  {
+    "run": "convnext",
+    "model": "ConvNeXt-CIFAR (ours)",
+    "params_M": 1.18,
+    "best_acc": 80.27,
+    "best_epoch": 15,
+    "final_acc": 80.27,
+    "train_min": 28.8,
+    "epoch_s": 115.3,
+    "throughput": 1838
+  },
+  {
+    "run": "convnext_k3",
+    "model": "ConvNeXt, 3x3 dwconv",
+    "params_M": 1.15,
+    "best_acc": 80.16,
+    "best_epoch": 14,
+    "final_acc": 80.13,
+    "train_min": 24.4,
+    "epoch_s": 97.7,
+    "throughput": 1911
+  },
+  {
+    "run": "convnext_bnrelu",
+    "model": "ConvNeXt, BN + ReLU",
+    "params_M": 1.18,
+    "best_acc": 83.42,
+    "best_epoch": 15,
+    "final_acc": 83.42,
+    "train_min": 21.5,
+    "epoch_s": 86.0,
+    "throughput": 3017
+  },
+  {
+    "run": "convnext_noreg",
+    "model": "ConvNeXt, no LayerScale / no StochDepth",
+    "params_M": 1.18,
+    "best_acc": 82.86,
+    "best_epoch": 15,
+    "final_acc": 82.86,
+    "train_min": 28.0,
+    "epoch_s": 112.2,
+    "throughput": 2024
+  },
+  {
+    "run": "resnet20x2",
+    "model": "ResNet-20 x2 (baseline)",
+    "params_M": 1.08,
+    "best_acc": 90.67,
+    "best_epoch": 15,
+    "final_acc": 90.67,
+    "train_min": 20.0,
+    "epoch_s": 80.0,
+    "throughput": 2374
+  }
+]
