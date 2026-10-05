@@ -63,3 +63,9 @@ in this short-schedule regime and what each ablation shows.
 | ConvNeXt, no LayerScale / no StochDepth | 1.18 M | **82.86%** | 82.86% | 28.0 min | 2024 |
 | ResNet-20 x2 (baseline) | 1.08 M | **90.67%** | 90.67% | 20.0 min | 2374 |
 <!-- results:end -->
+
+## AI Assignment #2
+
+**BAPE** — C. Du, Y. Wang, S. Song, G. Huang, *Learning an Explicit Bayes Classifier for Long-tailed Visual Recognition*, arXiv:2506.23280 (2025).
+
+Code, figures, and the report are in [`assignment2/`](assignment2). The run is a CPU-scale long-tailed Fashion-MNIST comparison of softmax, logit adjustment, and the explicit vMF Bayes classifier. See [`assignment2/README.md`](assignment2/README.md).

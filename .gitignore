@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 results/*.pt
 .venv/
+assignment2/data/
+report/_report_built.md
