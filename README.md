@@ -69,3 +69,9 @@ in this short-schedule regime and what each ablation shows.
 **BAPE** — C. Du, Y. Wang, S. Song, G. Huang, *Learning an Explicit Bayes Classifier for Long-tailed Visual Recognition*, arXiv:2506.23280 (2025).
 
 Code, figures, and the report are in [`assignment2/`](assignment2). The run is a CPU-scale long-tailed Fashion-MNIST comparison of softmax, logit adjustment, and the explicit vMF Bayes classifier. See [`assignment2/README.md`](assignment2/README.md).
+
+## AI Assignment #3
+
+**2DPCA + LDA** — K. Jiang, Y. Song, S. Li, K. Chen, *Feature extraction and recognition of face image based on 2DPCA with LDA algorithm*, IEEE IAEAC 2024.
+
+Code, figures, and the report are in [`assignment3/`](assignment3). The run is a two-second CPU comparison of PCA, Fisherfaces, 2DPCA, 2DLDA, and the paper's cascades on a small-sample Fashion-MNIST split. See [`assignment3/README.md`](assignment3/README.md).

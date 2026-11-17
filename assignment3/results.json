@@ -1,0 +1,203 @@
+{
+  "dataset": "Fashion-MNIST small-sample split",
+  "train_per_class": 20,
+  "test_per_class": 200,
+  "image_shape": [
+    28,
+    28
+  ],
+  "pixel_dim": 784,
+  "within_class_rank": 190,
+  "within_class_dim": 784,
+  "smallest_within_eigenvalue": -6.202526243914372e-13,
+  "largest_within_eigenvalue": 1815.0728010453176,
+  "checks": {
+    "full_reconstruction_mse": 5.444627452873946e-31,
+    "spectrum_identity_error": 3.552713678800501e-15,
+    "lda_population_alignment": 1.0,
+    "fisher_lda": 334.8812954807696,
+    "fisher_last_pca": 0.00011753743747333922
+  },
+  "pca_curve": [
+    {
+      "components": 5,
+      "accuracy": 0.607
+    },
+    {
+      "components": 10,
+      "accuracy": 0.6455
+    },
+    {
+      "components": 20,
+      "accuracy": 0.671
+    },
+    {
+      "components": 40,
+      "accuracy": 0.6735
+    },
+    {
+      "components": 80,
+      "accuracy": 0.6745
+    }
+  ],
+  "twodpca_curve": [
+    {
+      "components": 1,
+      "feature_dim": 28,
+      "accuracy": 0.495
+    },
+    {
+      "components": 2,
+      "feature_dim": 56,
+      "accuracy": 0.5895
+    },
+    {
+      "components": 3,
+      "feature_dim": 84,
+      "accuracy": 0.6375
+    },
+    {
+      "components": 5,
+      "feature_dim": 140,
+      "accuracy": 0.6455
+    },
+    {
+      "components": 8,
+      "feature_dim": 224,
+      "accuracy": 0.675
+    },
+    {
+      "components": 12,
+      "feature_dim": 336,
+      "accuracy": 0.6745
+    }
+  ],
+  "methods": {
+    "pca40": {
+      "accuracy": 0.6735,
+      "per_class": [
+        0.63,
+        0.865,
+        0.345,
+        0.8,
+        0.645,
+        0.77,
+        0.345,
+        0.78,
+        0.685,
+        0.87
+      ],
+      "fisher": 1.3625016326831891
+    },
+    "pca40_lda": {
+      "accuracy": 0.755,
+      "per_class": [
+        0.71,
+        0.885,
+        0.71,
+        0.845,
+        0.625,
+        0.845,
+        0.47,
+        0.77,
+        0.8,
+        0.89
+      ],
+      "fisher": 4.23865467371182
+    },
+    "fisherfaces": {
+      "accuracy": 0.5495,
+      "per_class": [
+        0.505,
+        0.745,
+        0.38,
+        0.62,
+        0.505,
+        0.305,
+        0.35,
+        0.79,
+        0.505,
+        0.79
+      ],
+      "fisher": 2294.4556225976085
+    },
+    "twodpca5": {
+      "accuracy": 0.6455,
+      "per_class": [
+        0.62,
+        0.83,
+        0.315,
+        0.595,
+        0.65,
+        0.785,
+        0.33,
+        0.775,
+        0.685,
+        0.87
+      ]
+    },
+    "twodpca_lda": {
+      "accuracy": 0.511,
+      "per_class": [
+        0.4,
+        0.865,
+        0.495,
+        0.46,
+        0.475,
+        0.3,
+        0.35,
+        0.595,
+        0.485,
+        0.685
+      ],
+      "fisher": 17.504973647484885
+    },
+    "twodpca_pca_lda": {
+      "accuracy": 0.714,
+      "per_class": [
+        0.72,
+        0.825,
+        0.68,
+        0.59,
+        0.63,
+        0.785,
+        0.48,
+        0.77,
+        0.775,
+        0.885
+      ]
+    },
+    "twodlda": {
+      "accuracy": 0.7085,
+      "per_class": [
+        0.765,
+        0.865,
+        0.585,
+        0.825,
+        0.585,
+        0.815,
+        0.34,
+        0.81,
+        0.64,
+        0.855
+      ],
+      "top_eigenvalue": 2.423402621551157
+    },
+    "twodpca_twodlda": {
+      "accuracy": 0.6505,
+      "per_class": [
+        0.745,
+        0.745,
+        0.45,
+        0.495,
+        0.585,
+        0.8,
+        0.32,
+        0.825,
+        0.66,
+        0.88
+      ]
+    }
+  },
+  "seconds": 2.064009299967438
+}
